@@ -1,6 +1,6 @@
-Threat ID,Component,STRIDE,Threat Description,NIST Controls
-T-01,Web API,Spoofing,Stolen token used to access API,AC-6
-T-02,Web API,Elevation of Privilege,Over-permissioned service identity,AC-6
-T-03,Web API,Denial of Service,Excessive requests overwhelm API,SC-8
-T-04,Web API,Repudiation,User actions not logged,AU-2
-T-05,Data in Transit,Information Disclosure,Data intercepted in transit,SC-8
+Threat ID,Component,STRIDE,Threat Description,NIST Controls,Asset IP,Port,Plugin Name,Plugin ID,Severity,Description,Recommendation
+T-01,Web API,Spoofing,Stolen token used to access API,AC-6, 10.0.1.12,443,SSL Medium Strength Cipher Suites Supported,10482,High,"Server supports TLS 1.0 and weak ciphers","Disable TLS 1.0/1.1; enable TLS 1.2+ with strong ciphers"
+T-02,Web API,Elevation of Privilege,Over-permissioned service identity,AC-6, 10.0.1.12,443,SSL Medium Strength Cipher Suites Supported,10482,High,"Server supports TLS 1.0 and weak ciphers","Disable TLS 1.0/1.1; enable TLS 1.2+ with strong ciphers"
+T-03,Web API,Denial of Service,Excessive requests overwhelm API,SC-8, 10.0.1.12,443,SSL Medium Strength Cipher Suites Supported,10482,High,"Server supports TLS 1.0 and weak ciphers","Disable TLS 1.0/1.1; enable TLS 1.2+ with strong ciphers"
+T-04,Web API,Repudiation,User actions not logged,AU-2, 10.0.1.12,443,SSL Medium Strength Cipher Suites Supported,10482,High,"Server supports TLS 1.0 and weak ciphers","Disable TLS 1.0/1.1; enable TLS 1.2+ with strong ciphers"
+T-05,Data in Transit,Information Disclosure,Data intercepted in transit,SC-8, 10.0.1.12,443,SSL Medium Strength Cipher Suites Supported,10482,High,"Server supports TLS 1.0 and weak ciphers","Disable TLS 1.0/1.1; enable TLS 1.2+ with strong ciphers"
