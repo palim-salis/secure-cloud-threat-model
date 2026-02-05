@@ -7,7 +7,7 @@ identifies key interaction points relevant to threat modeling.
 - **Client**
   - Authenticated internal users or services
   - Initiates requests to the Web API over HTTPS
-# Processes
+## Processes
 
 - **Web API**
   - Validates authentication tokens
